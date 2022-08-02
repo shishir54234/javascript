@@ -1,0 +1,52 @@
+<!DOCTYPE html><!--HTML is the source node below that head and body are its children node/ descendant node and head/ body are siblings -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JAVA SCRIPT TUTORIAL</title>
+</head>
+<body><!-- you first started with just div.container vscode auto fills it to the whole thing #Vscode rox-->
+    <h1> Welcome to my Java script tutorial</h1>
+    <div id ="firstContainer" class="container">
+        <button id="click"><!-- you first did button#click and it automatically filled it up
+        so "."= class
+    "#"== id
+-->     click me
+
+        </button>
+    </div>
+    <div class="container"><!-- YOu can add multiple containers on the page but dont add duplicate ids on the page click id should 
+    be only one on the whole page-->
+
+    </div>
+    <ul><!--you duplicate this by using emit 
+    ul is a tag and li's also are tags the lis are siblings of each other -->
+        <li>First Element </li>
+        <li>Second Element </li>
+        <li>3rd Element xo</li>
+    </ul>
+    <script>
+        //Root node
+        console.log(document.documentElement)//wont have any output if no console log 
+        console.log(document.body)
+        console.log(document.head)
+
+        //Children Nodes
+        console.log(document.body.childNodes)//Will access all the nodes
+        console.log(document.body.children)// will access only the element nodes and we will only get tags in the output 
+        </script>
+</body>
+<script src="Helloworld.js"> // What you can also understand is that the "script" part  is the part where you write javascript code
+    //Ways to print in Javascript
+    // document.write("shaadi when"); // this helps us write in the document 
+    //  alert("Hello world");
+    // console.log("Hello world");// This get printed on the console part of Inspect elements
+
+    //2. JavaScript Console API 
+    // console.warn("this is a warning ")
+    // console.log("Hello world")
+    // console.log("Hello world")
+    
+</script>
+</html>
